@@ -1,0 +1,230 @@
+.dropdown-item:active{
+    background-color:#0087A1 !important;
+}
+
+.text-muted{
+    color: #0087A1 !important;
+    opacity: 1;
+}
+
+.right{
+    align-items: flex-end !important;
+    flex-grow: 0 !important;
+}
+
+.img-logo{
+    width: auto;
+    height: 50px;
+}
+
+
+.img-logo-footer{
+    width: auto;
+    height: 30px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.anti-active{
+    font-weight: 500 !important;
+}
+.active{
+    font-weight: 700;
+    color: #0087A1 !important;    
+}
+
+.bot-border-active{
+    border-bottom: 5px solid #0087A1;
+}
+
+.btn-primary{
+    background-color:#0087A1 !important;
+    border-color: #0087A1 !important;
+}
+
+.banner{
+    max-height: 300px;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+
+/*carousel*/
+
+.carousel-inner{
+    max-height: 600px;
+}
+
+.carousel-item {
+max-height: 600px;
+}
+
+.carousel-caption{
+    text-align: left;
+}
+
+* {box-sizing:border-box}
+
+
+
+
+/*carousel*/
+
+/*Featurette*/
+
+.featurette-margin-bot{
+    margin-bottom: 4rem !important;
+}
+
+.featurette-margin-top{
+    margin-top: 4rem !important;
+}
+
+.divider{
+    height: 5px !important;
+    color:#0087A1 !important;
+    opacity: 1;
+}
+
+.uppercase {
+    text-transform: uppercase;
+  }
+
+/*Copiar Daqui para baixo*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.py-5{
+    padding: 3rem !important;
+}
+
+.bg-dark{
+    background-color: rgb(15, 15, 15) !important;
+}
+
+.bi{
+    fill: whitesmoke!important;
+}
+
+.txt-white{
+    color: whitesmoke;
+}
+
+.container-fluid{
+    padding: 0rem !important;
+}
+
+.call{
+    color: whitesmoke !important;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.pad-bot{
+    padding-bottom: 1rem !important;
+}
+
+.pad-top{
+    padding-top: 1rem !important;
+}
+
+.main-pad-bot{
+    padding-bottom: 3rem !important;
+}
+
+.main-pad-top{
+    padding-top: 3rem !important;
+}
+
+.footer-padding{
+    padding-top: 40px !important;
+}
+
+.pad-left{
+    padding-left: 15px;
+}
+
+.pad-right{
+    padding-right: 15px;
+}
+
+.pad-bot-extra{
+    padding-bottom: 2rem !important;
+}
+
+.pad-top-extra{
+    padding-top: 2rem !important;
+}
+
+.pad-bot-form{
+    padding-bottom: 3.5rem !important;
+}
+
+.pad-top-form{
+    padding-top: 3.5rem !important;
+}
+
+.justify{
+    text-align: center;
+}
+
+
+.float-left{
+    float: left;
+}
+
+
+/*Card*/
+
+.img-logo-card{
+    width: 140px;
+    height: 140px;
+}
+
+/*map*/
+
+iframe, .maps{
+    width: 100%;
+    height: 450px; 
+}
+
+/* The animation code */
+@keyframes mediapartner {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}  
+
+.animediv {
+    animation-name: mediapartner;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}  
+
+.animeimg {
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button {
+    from {transform: translate(0px)}
+    to {transform: translate(1900px)}
+}  
+
+.animebtn:hover {
+    animation-name: button;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
